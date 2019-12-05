@@ -1,36 +1,64 @@
 body {
-  background-color: black;
+  background-color: #F6F6F6;
 }
-header img{
+
+header {
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 15px;
+}
+
+header img {
   height: 75px;
   width: 75px;
-}
-header a {
-  font-family: Raleway, "Open Sans", sans-serif;
-  text-decoration: none;
-  color: white;
+
 }
 
-nav a {
+.website-title a{
+  font-family: Raleway, "Open Sans", sans-serif;
+  text-decoration: none;
+  color: black;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 50px;
+}
+
+.nav a{
   font-family: fantasy, cursive, serif;
   text-decoration: none;
-  color: white;
+  color: black;
+  padding-left: 130px;
+  padding-right: 30px;
 }
 
-nav a:hover {
+.nav a:hover{
   text-decoration: underline;
+}
+
+
+
+
+
+
+main .welcome {
+  font-family: Impact, Charcoal, sans-serif	;
+  font-size: 50px;
+  margin: 0px;
+  color: black;
+  text-align: center;
+  background-color: #E62714;
+  padding: 50px;
+
 
 }
 
-h2 {
+main h3 {
   font-family: Raleway, "Open Sans", sans-serif;
-  color: white;
+  color: black;
+  text-align: center;
 
-}
-
-h3 {
-  font-family: Raleway, "Open Sans", sans-serif;
-  color: white;
 }
 
 .mainPageImg img{
@@ -41,12 +69,12 @@ h3 {
 
 footer p {
   font-family: Raleway, "Open Sans", sans-serif;
-  color: white;
+  color: black;
 
 }
 
 footer a {
   font-family: Raleway, "Open Sans", sans-serif;
   text-decoration: none;
-  color: white;
+  color: black;
 }
