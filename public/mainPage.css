@@ -40,7 +40,9 @@ header img {
 
 
 
-
+main {
+  background: #F6F6F6;
+}
 
 main .welcome {
   font-family: Impact, Charcoal, sans-serif	;
@@ -61,10 +63,44 @@ main h3 {
 
 }
 
-.mainPageImg img{
-  height: 500px;
-  width: 600px;
+.mainPageImg {
+  display: inline-block;
+  vertical-align: top;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+
+  background-color: #FFFFFF;
+
 }
+
+.workout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.workout-image-container img {
+  max-height: 175px;
+  max-width: 300px;
+}
+
+.info {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.info p {
+  margin: 0px;
+  text-align: center;
+}
+
+
+
 
 
 footer p {
