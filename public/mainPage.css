@@ -25,15 +25,15 @@ header img {
   font-size: 50px;
 }
 
-.nav a{
+#nav a{
   font-family: fantasy, cursive, serif;
   text-decoration: none;
   color: black;
-  padding-left: 130px;
+  padding-left: 100px;
   padding-right: 30px;
 }
 
-.nav a:hover{
+#nav a:hover{
   text-decoration: underline;
 }
 
@@ -63,15 +63,22 @@ main h3 {
 
 }
 
+#mainPics {
+  text-align: center;
+
+}
+
 .mainPageImg {
+  font-family: Raleway, "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
   display: inline-block;
   vertical-align: top;
-  height: 300px;
+  height: 240px;
   width: 300px;
   margin: 10px;
-  padding: 10px;
+  padding: 0px;
   border: none;
-
   background-color: #FFFFFF;
 
 }
@@ -79,9 +86,9 @@ main h3 {
 .workout {
   display: flex;
   flex-direction: column;
-  align-items: center;
   height: 100%;
   width: 100%;
+
 }
 
 .workout-image-container img {
