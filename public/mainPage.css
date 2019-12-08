@@ -38,8 +38,6 @@ header img {
 }
 
 
-
-
 main {
   background: #F6F6F6;
 }
@@ -52,7 +50,6 @@ main .welcome {
   text-align: center;
   background-color: #E62714;
   padding: 50px;
-
 
 }
 
@@ -68,10 +65,11 @@ main h3 {
 
 }
 
+#linkInfo {
+  text-align: center;
+}
+
 .mainPageImg {
-  font-family: Raleway, "Open Sans", sans-serif;
-  font-size: 25px;
-  font-weight: bold;
   display: inline-block;
   vertical-align: top;
   height: 240px;
@@ -91,10 +89,22 @@ main h3 {
 
 }
 
+.workout-image-container {
+  overflow: hidden;
+}
+
 .workout-image-container img {
   max-height: 175px;
   max-width: 300px;
+  transition: transform .5s ease;
+
 }
+
+.workout-image-container:hover img {
+  transform: scale(1.3);
+}
+
+
 
 .info {
   width: 100%;
@@ -102,9 +112,39 @@ main h3 {
 }
 
 .info p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Raleway, "Open Sans", sans-serif;
   margin: 0px;
   text-align: center;
 }
+
+.info a {
+  text-decoration: none;
+  color: #E62714;
+  font-family: Andale Mono, monospace;
+}
+
+.info:hover a{
+  text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
@@ -123,15 +163,3 @@ footer a {
   color: black;
 
 }
-
-/* footer p {
-  font-family: Raleway, "Open Sans", sans-serif;
-  color: black;
-
-}
-
-footer a {
-  font-family: Raleway, "Open Sans", sans-serif;
-  text-decoration: none;
-  color: black;
-} */
