@@ -96,6 +96,4 @@ function savePost() {
   sellCity.textContent = "(" + postCity + ")";
   createInfoContainer.appendChild(sellCity);
 
-  closeModal();
-  clearPost();
 }
