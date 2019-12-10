@@ -53,3 +53,47 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+// function to create a post on the myworkouts page.
+function savePost() {
+  var sectionMy = document.getElementById('myWorkouts');
+  var workoutSection = document.createElement('div');
+  workoutSection.classList.add('workout');
+  workoutSection.dataset.movement = movement;
+  workoutSection.dataset.time = time;
+  sectionMy.appendChild(workoutSection);
+
+  var workoutContents = document.createElement('div');
+  workoutContents.classList.add('workout-contents');
+  workoutSection.appendChild(workoutContents);
+
+  var imgContainerDiv = document.createElement('div');
+  imgContainerDiv.classList.add('workout-image');
+  workoutContents.appendChild(imgContainerDiv);
+
+  var sellPhoto = document.createElement('img');
+  sellPhoto.src = postUrl;
+  sellPhoto.alt = postName;
+  imgContainerDiv.appendChild(sellPhoto);
+
+  var createInfoContainer = document.createElement('div');
+  createInfoContainer.classList.add('post-info-container');
+  createPostContentsDiv.appendChild(createInfoContainer);
+
+  var sellTitle = document.createElement('a');
+  sellTitle.href = "#";
+  sellTitle.classList.add('post-title');
+  sellTitle.textContent = postName;
+  createInfoContainer.appendChild(sellTitle);
+
+  var sellPrice = document.createElement('span');
+  sellPrice.classList.add('post-price');
+  sellPrice.textContent = "$" + postPrice;
+  createInfoContainer.appendChild(sellPrice);
+
+  var sellCity = document.createElement('span');
+  sellCity.classList.add('post-city');
+  sellCity.textContent = "(" + postCity + ")";
+  createInfoContainer.appendChild(sellCity);
+
+}
