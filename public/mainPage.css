@@ -81,7 +81,7 @@ main h3 {
 
 }
 
-.workout {
+.main {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -89,18 +89,18 @@ main h3 {
 
 }
 
-.workout-image-container {
+.main-image-container {
   overflow: hidden;
 }
 
-.workout-image-container img {
+.main-image-container img {
   max-height: 175px;
   max-width: 300px;
   transition: transform .5s ease;
 
 }
 
-.workout-image-container:hover img {
+.main-image-container:hover img {
   transform: scale(1.3);
 }
 
