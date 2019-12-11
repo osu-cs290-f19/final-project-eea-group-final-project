@@ -243,6 +243,48 @@ main h3 {
   margin: 10px;
 }
 
+#customers {
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.customer{
+  display:inline-block;
+  vertical-align: top;
+  height:400px;
+  width:300px;
+  margin:50px;
+  padding:10px;
+  border:1px solid green;
+}
+
+.post-contents{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height:100%;
+  weight:100%;
+
+}
+
+.post-image-container img{
+  max-height:240px;
+  max-width:300px;
+}
+
+.post-info-container{
+  width:100%;
+  margin-top:20px;
+}
+
+.post-info-container span{
+  margin:10px;
+  display: flex;
+  align-items: center;
+  color:white;
+}
+
 .save-btn button {
   font-family: Noto Sans, sans-serif;
   border: 2px solid black;
@@ -255,6 +297,21 @@ main h3 {
   cursor: pointer;
 }
 
+.error {
+  font-family: Noto Sans, serif;
+  text-align: center;
+}
+
+.error h2 {
+  font-size: 128px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.error h3 {
+  font-size: 32px;
+  margin: 20px;
+}
 
 
 

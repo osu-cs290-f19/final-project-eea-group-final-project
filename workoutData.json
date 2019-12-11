@@ -1,0 +1,107 @@
+{
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxeAY4zPukjDg_NcK3bPRekuXpSjeZH1vh_9QPQQwk8W2r8tOU&s",
+    "title": "Bench Press",
+    "time": "15",
+    "type": "Chest",
+    "sets": "5 x 8"
+  },
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDGI87-X5hAmjtAO-b41IGL3_HtKYje7aCcJ00QfGwoVASMbXo&s",
+    "title": "Incline Bench Press",
+    "time": "12",
+    "type": "Chest",
+    "sets": "3 x 8"
+  },
+  {
+    "url": "https://www.bodybuilding.com/fun/images/2015/9-fly-variations-graphics-cellucore-2.jpg",
+    "title": "Chest Fly",
+    "time": "10",
+    "type": "Chest",
+    "sets": "3 x 12"
+  },
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSH_X_hJ0_57HB3kqxrp1uOVc8IYJzpSRBi1KewH24fz6Mq2Boew&s",
+    "title": "Bicep Curls",
+    "time": "10",
+    "type": "Biceps",
+    "sets": "3 x 10"
+  },
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvPNouN4dyylOKqQPs3sEx9jrYMfliD8_34vl2RlsPolOH-zHOYQ&s",
+    "title": "Barbell Curls",
+    "time": "12",
+    "type": "Biceps",
+    "sets": "3 x 12"
+  },
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrkySrQedSwGOAx3g0sWHP2RjaxLWDleJHgIaf1k-h4wkQDejw1g&s",
+    "title": "Tricep Kickbacks",
+    "time": "12",
+    "type": "Triceps",
+    "sets": "3 x 12"
+  },
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4LYyQ70fY6Sw80h1oY_lvXwz2eZZxhM9oMruh0dUvqg7qNKmUJg&s",
+    "title": "Tricep Pushdowns",
+    "time": "15",
+    "type": "Triceps",
+    "sets": "4 x 12"
+  },
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU_ShXulJNbnAcAN-Ft3BecHMqMR2Mh0n42HWuwTkEJREOY0sWiA&s",
+    "title": "Pullups",
+    "time": "10",
+    "type": "Back",
+    "sets": "4 x 8"
+  },
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQghUA5sJlseFY3uJ48phJGaZr6E5uP6u-CRMQ-1hpVs0o_sJiO3A&s",
+    "title": "Bent Over Rows",
+    "time": "12",
+    "type": "Back",
+    "sets": "4 x 10"
+  },
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtqaobVwZ5Q62khaRl-adNlESVUz25GOymv4cJGzC0hqfx1xID&s",
+    "title": "Deadlift",
+    "time": "15",
+    "type": "Back",
+    "sets": "5 x 8"
+  },
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_x0F1_wDxmLDXkmaQ_lCZtUxgCMz9flZpGeBVegfkyUfKw75K&s",
+    "title": "Single Arm Row",
+    "time": "10",
+    "type": "Back",
+    "sets": "3 x 10"
+  },
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-8NLgj7XeZoh7ezD9adR27vbOCeovIhafMExZrYWn2Vz88kj2&s",
+    "title": "Squats",
+    "time": "10",
+    "type": "Legs Quads Hamstrings",
+    "sets": "4 x 5"
+  },
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Mlg2tt7A4_xwuSVbiL8XJIUo-rWzcApr_lcdUVFI1NwbVNrc&s",
+    "title": "Leg Extensions",
+    "time": "10",
+    "type": "Legs Quads",
+    "sets": "4 x 12"
+  },
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa8IQUoWWyh7agpdpC6DNeZ5M-lJbKUMEeGgpcMo3X_GbUC4FK&s",
+    "title": "Leg Curls",
+    "time": "10",
+    "type": "Legs Hamstrings",
+    "sets": "4 x 12"
+  },
+  {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH8djbnxty1vXy1OIkpqUBdPmIAYDex6yMslMvDZT3d4iUTnj3&s",
+    "title": "Calf Raises",
+    "time": "10",
+    "type": "Legs Calfs",
+    "sets": "3 x 12"
+  }
+}
