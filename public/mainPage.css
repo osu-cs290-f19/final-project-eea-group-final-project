@@ -316,11 +316,6 @@ main h3 {
   font-size: 30px;
 }
 
-ul{
-  display: flex;
-  height: 100%;
-  weight:100%;
-}
 
 .content p{
   color:black;
@@ -387,6 +382,7 @@ h2.site-title {
   text-decoration: none;
   color:black
 }
+
 
 .error {
   font-family: Noto Sans, serif;
