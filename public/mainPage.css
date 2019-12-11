@@ -81,7 +81,7 @@ main h3 {
 
 }
 
-.main {
+.workout {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -89,18 +89,18 @@ main h3 {
 
 }
 
-.main-image-container {
+.workout-image-container {
   overflow: hidden;
 }
 
-.main-image-container img {
+.workout-image-container img {
   max-height: 175px;
   max-width: 300px;
   transition: transform .5s ease;
 
 }
 
-.main-image-container:hover img {
+.workout-image-container:hover img {
   transform: scale(1.3);
 }
 
@@ -253,6 +253,80 @@ main h3 {
   font-size: 12px;
   padding: 5px;
   cursor: pointer;
+}
+
+/* comment css and aboutus CSS */
+
+.sub-title h2{
+  margin-left: 40px;
+}
+
+.website-title a{
+  text-decoration: none;
+  color:black;
+}
+
+.class p{
+  color:white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+ul{
+  display: flex;
+  height: 100%;
+  weight:100%;
+}
+
+.content p{
+  color:black;
+  text-decoration: underline;
+}
+
+.post a{
+  margin-left: 10px;
+  text-decoration: none;
+  color:black;
+}
+
+.customer{
+  display:inline-block;
+  vertical-align: top;
+  height:400px;
+  width:300px;
+  margin:50px;
+  padding:10px;
+  border:1px solid green;
+}
+
+.post-contents{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height:100%;
+  weight:100%;
+
+}
+
+.post-image-container img{
+  max-height:240px;
+  max-width:300px;
+}
+
+.post-info-container{
+  width:100%;
+  margin-top:20px;
+}
+
+.post-info-container a{
+  margin-left: 10px;
+}
+
+.post-info-container span{
+  margin:10px;
+  display: flex;
+  align-items: center;
+  color:black;
 }
 
 
