@@ -1,0 +1,25 @@
+{
+  "name": "final-project-eea-group-final-project",
+  "version": "1.0.0",
+  "description": "Final Project for CS 290\r By: Eric S. Eric H. Austin S.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osu-cs290-f19/final-project-eea-group-final-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osu-cs290-f19/final-project-eea-group-final-project/issues"
+  },
+  "homepage": "https://github.com/osu-cs290-f19/final-project-eea-group-final-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.5.3",
+    "serve-favicon": "^2.5.0"
+  }
+}
