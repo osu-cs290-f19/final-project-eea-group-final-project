@@ -1,0 +1,24 @@
+<div class="workout" data-movement="{{type}}" data-time="{{time}}">
+  <div class="workout-contents">
+    <div class="workout-image">
+      <img src="{{url}}" alt="{{title}}">
+    </div>
+    <div class="workout-info">
+     <p>Exersize: <span class="workout-title">{{title}}</span></p>
+     <p>Duration (Minutes): <span class="workout-time">{{time}}</span></p>
+     <p>Movement: <span class="workout-type">{{type}}</span></p>
+     <p>Sets and Reps: <span>{{sets}}</span></p>
+     <div class ="save-btn">
+       <form action="/saveWorkout" method="POST">
+         <input type="hidden" name="type"  value={{type}} />
+          <input type="hidden" name="time" value={{time}} />
+           <!-- <input type="hidden" id="url" value={{url}} />
+            <input type="hidden" id="sets" value={{sets}} /> -->
+         <button type="submit" id="addBtn">Save to Workouts</button>
+
+       </form>
+     </div>
+
+    </div>
+  </div>
+</div>
