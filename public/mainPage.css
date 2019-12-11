@@ -53,6 +53,10 @@ main .welcome {
 
 }
 
+h2 .site-title {
+  font-family: Raleway, "Open Sans", sans-serif;
+}
+
 main h3 {
   font-family: Raleway, "Open Sans", sans-serif;
   color: black;
@@ -301,13 +305,6 @@ main h3 {
 
 
 
-
-
-
-.sub-title h2{
-  margin-left: 40px;
-}
-
 .website-title a{
   text-decoration: none;
   color:black;
@@ -379,6 +376,11 @@ ul{
 .site-title a{
   text-decoration: none;
   color:black;
+}
+
+h2.site-title {
+  font-family: Raleway, "Open Sans", sans-serif;
+  background-color: red;
 }
 
 .sub-title a{
