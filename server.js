@@ -79,6 +79,10 @@ app.get('/supplements/', function (req, res, next) {
   res.status(200).render('supplements');
 });
 
+app.get('/myProgram/', function (req, res, next) {
+  res.status(200).render('myProgramPage');
+});
+
 app.get('/review/', function (req, res, next) {
   res.status(200).render('reviewPage');
 });
