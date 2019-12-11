@@ -99,32 +99,32 @@ function savePost() {
 }
 
 //Add workout to My Program
-
-function saveWorkouts(){
-  var workouts = document.getElementsByClassName("workout");
-
-  var section = document.getElementById('workouts')
-
-  var workout = document.createElement('div')
-  workout.classList.add('workout')
-  workout.setAttribute('data-movement', data.movement)
-  workout.setAttribute('data-time', data.time)
-  section.appendChild(post)
-
-  var workoutContents = document.createElement('div')
-  workoutContents.classList.add('workout-contents')
-  post.appendChild(workoutContents)
-
-  var workoutImage = document.createElement('div')
-  workoutImage.classList.add('workout-image')
-  postContents.appendChild(workoutImage)
-
-  var img = document.createElement('img')
-  img.setAttribute('src', data.url)
-  img.setAttribute('alt', data.description)
-  imageContainer.appendChild(img)
-
-}
-
-var addWorkout = document.getElementById("addBtn");
-addWorkout.addEventListener("click", saveWorkouts);
+//
+// function saveWorkouts(){
+//   var workouts = document.getElementsByClassName("workout");
+//
+//   var section = document.getElementById('workouts')
+//
+//   var workout = document.createElement('div')
+//   workout.classList.add('workout')
+//   workout.setAttribute('data-movement', data.movement)
+//   workout.setAttribute('data-time', data.time)
+//   section.appendChild(post)
+//
+//   var workoutContents = document.createElement('div')
+//   workoutContents.classList.add('workout-contents')
+//   post.appendChild(workoutContents)
+//
+//   var workoutImage = document.createElement('div')
+//   workoutImage.classList.add('workout-image')
+//   postContents.appendChild(workoutImage)
+//
+//   var img = document.createElement('img')
+//   img.setAttribute('src', data.url)
+//   img.setAttribute('alt', data.description)
+//   imageContainer.appendChild(img)
+//
+// }
+//
+// var addWorkout = document.getElementById("addBtn");
+// addWorkout.addEventListener("click", saveWorkouts);
