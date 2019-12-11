@@ -299,9 +299,16 @@ main h3 {
 
 /* comment css and aboutus CSS */
 
-.sub-title h2{
-  margin-left: 40px;
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+main .welcome {
+  font-size: 25px;
 }
+
+
+
+
+
 
 .website-title a{
   text-decoration: none;
