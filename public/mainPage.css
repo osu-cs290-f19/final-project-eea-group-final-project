@@ -296,7 +296,7 @@ ul{
   width:300px;
   margin:50px;
   padding:10px;
-  border:1px solid green;
+  border:1px solid black;
 }
 
 .post-contents{
@@ -326,6 +326,11 @@ ul{
   margin:10px;
   display: flex;
   align-items: center;
+  color:black;
+}
+
+.site-title a{
+  text-decoration: none;
   color:black;
 }
 
