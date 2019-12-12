@@ -42,7 +42,7 @@ function (err) {
     if (err) {
         console.log('Error writing file', err)
     } else {
-        console.log('Successfully wrote file')
+        console.log('Successfully Deleted from file')
     }
 });
 res.redirect('back');
