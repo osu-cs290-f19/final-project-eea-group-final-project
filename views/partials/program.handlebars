@@ -8,14 +8,14 @@
      <p>Duration (Minutes): <span class="workout-time">{{time}}</span></p>
      <p>Movement: <span class="workout-type">{{type}}</span></p>
      <p>Sets and Reps: <span>{{sets}}</span></p>
-     <div class ="save-btn">
-       <form action="/saveWorkout" method="POST">
+     <div class ="delete-btn">
+       <form action="/deleteWorkout" method="POST">
          <input type="hidden" name="title" value="{{title}}" />
          <input type="hidden" name="type"  value="{{type}}" />
          <input type="hidden" name="time" value="{{time}}" />
          <input type="hidden" name="url" value="{{url}}" />
          <input type="hidden" name="sets" value="{{sets}}" />
-         <button type="submit" id="addBtn">Save to Workouts</button>
+         <button type="submit" id="deleteBtn">Remove</button>
        </form>
      </div>
     </div>
