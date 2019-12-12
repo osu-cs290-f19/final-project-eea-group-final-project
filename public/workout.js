@@ -1,6 +1,3 @@
-
-
-
 var allBtn = document.getElementById("all");
 var chestBtn = document.getElementById("chest");
 var bicepsBtn = document.getElementById("biceps");

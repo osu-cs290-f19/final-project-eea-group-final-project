@@ -53,6 +53,11 @@ main .welcome {
 
 }
 
+
+h2 .site-title {
+  font-family: Raleway, "Open Sans", sans-serif;
+}
+
 main h3 {
   font-family: Raleway, "Open Sans", sans-serif;
   color: black;
@@ -150,6 +155,25 @@ main h3 {
 .supplement-info {
   display: flex;
 }
+
+p {
+  font-family: Raleway, "Open Sans", sans-serif;
+}
+
+h3 {
+  font-family: Raleway, "Open Sans", sans-serif;
+}
+
+.brands a {
+  text-decoration: none;
+  color: black;
+}
+
+.brands a:hover {
+  text-decoration: underline;
+  color: #E62714;
+}
+
 
 .supplement-container img {
     float: left;
@@ -249,15 +273,6 @@ main h3 {
   margin-top: 10px;
 }
 
-.customer{
-  display:inline-block;
-  vertical-align: top;
-  height:400px;
-  width:300px;
-  margin:50px;
-  padding:10px;
-  border:1px solid green;
-}
 
 .post-contents{
   display:flex;
@@ -326,9 +341,6 @@ main h3 {
 }
 /* comment css and aboutus CSS */
 
-.sub-title h2{
-  margin-left: 40px;
-}
 
 .website-title a{
   text-decoration: none;
@@ -341,11 +353,6 @@ main h3 {
   font-size: 30px;
 }
 
-ul{
-  display: flex;
-  height: 100%;
-  weight:100%;
-}
 
 .content p{
   color:black;
@@ -359,16 +366,19 @@ ul{
 }
 
 .customer{
+  border: 3px solid black;
+  background-color: #FFFFFF;
   display:inline-block;
   vertical-align: top;
   height:400px;
   width:300px;
   margin:50px;
   padding:10px;
-  border:1px solid black;
+  border:3px solid black;
 }
 
 .post-contents{
+  font-family: Raleway, "Open Sans", sans-serif;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -382,31 +392,53 @@ ul{
   max-width:300px;
 }
 
-.post-info-container{
-  width:100%;
-  margin-top:20px;
+.post-info-container span{
+  color: black
+
 }
 
-.post-info-container a{
-  margin-left: 10px;
-}
 
 .post-info-container span{
+  font-family: Raleway, "Open Sans", sans-serif;
   margin:10px;
-  display: flex;
+  display: inline-block;
   align-items: center;
   color:black;
+  
+/* a.post-title{
+  font-family: Raleway, "Open Sans", sans-serif;
+}
+
+.post-departments {
+  font-family: Raleway, "Open Sans", sans-serif;
+
+}
+
+.post-location {
+  font-family: Raleway, "Open Sans", sans-serif;
+
+}
+
+.post-condition{
+  font-family: Raleway, "Open Sans", sans-serif;
+  text-align: left; */
+
 }
 
 .site-title a{
-  text-decoration: none;
   color:black;
+}
+
+h2.site-title {
+  font-family: Raleway, "Open Sans", sans-serif;
+  background-color: red;
 }
 
 .sub-title a{
   text-decoration: none;
   color:black
 }
+
 
 .error {
   font-family: Noto Sans, serif;
@@ -427,18 +459,6 @@ ul{
 .content p {
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     background: #F6F6F6;
