@@ -53,6 +53,7 @@ main .welcome {
 
 }
 
+
 h2 .site-title {
   font-family: Raleway, "Open Sans", sans-serif;
 }
@@ -155,6 +156,25 @@ main h3 {
   display: flex;
 }
 
+p {
+  font-family: Raleway, "Open Sans", sans-serif;
+}
+
+h3 {
+  font-family: Raleway, "Open Sans", sans-serif;
+}
+
+.brands a {
+  text-decoration: none;
+  color: black;
+}
+
+.brands a:hover {
+  text-decoration: underline;
+  color: #E62714;
+}
+
+
 .supplement-container img {
     float: left;
     max-width: 200px;
@@ -253,15 +273,6 @@ main h3 {
   margin-top: 10px;
 }
 
-.customer{
-  display:inline-block;
-  vertical-align: top;
-  height:400px;
-  width:300px;
-  margin:50px;
-  padding:10px;
-  border:1px solid green;
-}
 
 .post-contents{
   display:flex;
@@ -304,7 +315,6 @@ main h3 {
 /* comment css and aboutus CSS */
 
 
-
 .website-title a{
   text-decoration: none;
   color:black;
@@ -329,13 +339,15 @@ main h3 {
 }
 
 .customer{
+  border: 3px solid black;
+  background-color: #FFFFFF;
   display:inline-block;
   vertical-align: top;
   height:400px;
   width:300px;
   margin:50px;
   padding:10px;
-  border:1px solid black;
+  border:3px solid black;
 }
 
 .post-contents{
@@ -352,24 +364,32 @@ main h3 {
   max-width:300px;
 }
 
-.post-info-container{
-  width:100%;
-  margin-top:20px;
-}
-
-.post-info-container a{
-  margin-left: 10px;
-}
-
 .post-info-container span{
-  margin:10px;
-  display: flex;
-  align-items: center;
-  color:black;
+  color: black
+
+}
+
+a.post-title{
+  font-family: Raleway, "Open Sans", sans-serif;
+}
+
+.post-departments {
+  font-family: Raleway, "Open Sans", sans-serif;
+
+}
+
+.post-location {
+  font-family: Raleway, "Open Sans", sans-serif;
+
+}
+
+.post-condition{
+  font-family: Raleway, "Open Sans", sans-serif;
+  text-align: left;
+
 }
 
 .site-title a{
-  text-decoration: none;
   color:black;
 }
 
