@@ -421,7 +421,9 @@ ul{
 
 .error h3 {
   font-size: 32px;
-  margin: 20px;
+}
+.bottomH3 {
+  margin-bottom: 150px;
 }
 
 .content p {

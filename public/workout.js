@@ -24,8 +24,9 @@ quadsBtn.addEventListener("click", filterMovement);
 hamstringsBtn.addEventListener("click", filterMovement);
 calfsBtn.addEventListener("click", filterMovement);
 
-deleteBtn.addEventListener("click", alert("Successfully Removed Workout"));
-saveBtn.addEventListener("click", alert("Successfully Saved Workout"));
+//deleteBtn.addEventListener("click", alert("Successfully Removed Workout"));
+//saveBtn.addEventListener("click", alert("Successfully Saved Workout");
+
 
 function filterMovement(){
   var current = document.getElementsByClassName("active");
