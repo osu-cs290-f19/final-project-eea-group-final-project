@@ -351,6 +351,7 @@ h3 {
 }
 
 .post-contents{
+  font-family: Raleway, "Open Sans", sans-serif;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -369,7 +370,15 @@ h3 {
 
 }
 
-a.post-title{
+
+.post-info-container span{
+  font-family: Raleway, "Open Sans", sans-serif;
+  margin:10px;
+  display: inline-block;
+  align-items: center;
+  color:black;
+  
+/* a.post-title{
   font-family: Raleway, "Open Sans", sans-serif;
 }
 
@@ -385,7 +394,7 @@ a.post-title{
 
 .post-condition{
   font-family: Raleway, "Open Sans", sans-serif;
-  text-align: left;
+  text-align: left; */
 
 }
 
