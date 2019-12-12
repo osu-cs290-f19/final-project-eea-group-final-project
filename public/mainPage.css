@@ -358,12 +358,12 @@ main h3 {
 }
 
 .post-info-container a{
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .post-info-container span{
   margin:10px;
-  display: flex;
+  display: inline-block;
   align-items: center;
   color:black;
 }
