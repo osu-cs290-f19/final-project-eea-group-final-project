@@ -314,6 +314,7 @@ h3 {
 
 /* comment css and aboutus CSS */
 
+
 .website-title a{
   text-decoration: none;
   color:black;
@@ -325,11 +326,6 @@ h3 {
   font-size: 30px;
 }
 
-ul{
-  display: flex;
-  height: 100%;
-  weight:100%;
-}
 
 .content p{
   color:black;
@@ -407,6 +403,7 @@ h2.site-title {
   color:black
 }
 
+
 .error {
   font-family: Noto Sans, serif;
   text-align: center;
@@ -422,6 +419,7 @@ h2.site-title {
   font-size: 32px;
   margin: 20px;
 }
+
 
 footer {
     background: #F6F6F6;
