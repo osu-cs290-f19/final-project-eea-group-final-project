@@ -3,6 +3,7 @@ var express = require('express');
 var exphbs = require('express-handlebars')
 var bodyParser = require('body-parser');
 
+
 var workoutData = require('./workoutData');
 var app = express();
 
@@ -26,6 +27,7 @@ app.get('/home/', function (req, res, next) {
 app.get('/about/', function (req, res, next) {
   res.status(200).render('aboutPage');
 });
+
 
 app.post('/saveWorkout', function(req, res) {
 const workout = req.body
